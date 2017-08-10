@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-loader babel babel-core css-loader style-loader url-loader file-loader less-loader less -D
+
+PATH: 
+  D:\cmder\bin;D:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\cmder\vendor\conemu-maximus5;D:\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs\;D:\java\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;D:\cmder;C:\Windows\System32;C:\Users\Administrator\AppData\Roaming\npm;D:\Git\usr\bin;D:\Git\usr\share\vim\vim74;D:\cmder\
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  6.11.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "webpackTest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.63.173:443
+      at Object.exports._errnoException (util.js:1018:11)
+      at exports._exceptionWithHostPort (util.js:1041:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
